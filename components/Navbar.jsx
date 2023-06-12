@@ -18,14 +18,14 @@ const Navbar = () => (
   <Flex p="2" borderBottom="1px" borderColor="gray.100">
     <Box fontSize="3xl" color="blue.400" fontWeight="bold">
       <Link href="/" passHref>
-        <Text as="a" display="inline">
+        <Text as="span" display="inline">
           <Text as="span" color="red.400" display="inline">
             U
           </Text>
           <Text as="span" color="red.400" display="inline">
             A
           </Text>
-          <Text as="span" color="green.600" display="inline">
+          <Text as="span" color="green.400" display="inline">
             E
           </Text>
           <Text as="span" color="gray.900" display="inline">
